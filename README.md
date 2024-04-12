@@ -1,2 +1,2 @@
 # efitech-landing
-design landing with aplication SEO
+landing design with application SEO
