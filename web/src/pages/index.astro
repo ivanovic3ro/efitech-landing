@@ -2,10 +2,21 @@
 import Layout from '../layouts/Layout.astro';
 import Footer from '../layouts/Footer.astro';
 import Card from '../components/Card.astro';
+import Banner from '../components/sections/Banner.astro';
 ---
 
 <Layout title="Welcome to Astro.">
+	
+	
 	<main>
+		<div class="container">
+			<Banner 
+			title='ORBIT THE EARTH' 
+			description='La Tierra es un planeta del sistema solar que gira alrededor de su estrella  en la tercera órbita más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar. También es el más grande de los cuatro planetas terrestres o rocosos.'
+			url="/banner-pattern.svg"
+			>
+			</Banner>
+		</div>
 		<svg
 			class="astro-a"
 			width="495"
